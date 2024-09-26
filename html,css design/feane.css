@@ -1,0 +1,553 @@
+.hero div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hero div img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}.hero div h1{
+    font-family: "Dancing Script", system-ui; font-size: 3rem;
+    color: white; position: absolute; top: 0px ; left: 150px ;
+}.hero div ul{
+    text-align: center; margin-top: -690px ;
+}.hero div ul li{
+    display: inline-block;margin: 19px ;
+}.hero div ul li a{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem;
+    text-decoration: none; color: white;
+}.hero div ul li span a{
+    color:#ffbe33;
+}.hero div ul li a:hover{
+    color: #ffbe33;
+}
+.hero div ol{
+    position: absolute; top: 40px ; left: 1050px ;
+}.hero div ol li{
+    display: inline-block;margin: 17px ;
+} .hero div ol li i{
+  font-size: 1.25rem; color: white;
+}.hero div ol li i:hover{
+    color: #ffbe33;
+}.qq{
+    height: 15px ; width: 10%; background-color: #ffbe33; color: white;
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; text-decoration: none;
+    text-align: center; position: absolute;top: 60px ; left: 1280px ;
+    border-radius: 10px ; padding: 15px ;
+}.qq:hover{
+    opacity: 0.9;
+}
+.hero div article{
+    position: absolute; top: 150px ; left: -10px ;
+    height: 350px ; width: 50%;
+}.hero div article p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px ; color: white;
+    position: absolute; top: 150px ; left: 150px ;opacity: 0.9;
+}.hero div article a{
+    height: 15px ; width: 15%; background-color: #ffbe33; color: white;
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; text-decoration: none;
+    text-align: center; position: absolute;top: 240px ; left: 150px ;
+    border-radius: 10px ; padding: 15px ;
+}a:hover{
+    opacity: 0.9;
+}
+.divs div1{
+    height: 220px ; width: 35%; background-color:#222831;
+    margin-left: 50px ; position: absolute; top: 820px ;left: 120px ;padding: 20px ;
+    border-radius: 15px ; transition: all 0.1 0.5s;
+} 
+.divs div1 img{
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 175px;
+    min-width: 175px;
+    height: 175px;
+    margin-right: 15px;
+    position: relative;
+    -webkit-transition: all 0.1 0.5s;
+    transition: all 0.1 0.5s;
+    border-radius: 100%;
+    border: 5px solid #ffbe33;
+}
+.divs div1 h1{
+    font-family: "Dancing Script", system-ui; font-size: 2.1rem;color: white;
+    margin-left: 220px ;margin-top: -170px ;
+
+}.divs div1 h2{
+    font-family: "Dancing Script", system-ui; font-size: 2.1rem;color: white;
+    margin-left: 220px ;margin-top: -20px ;
+}.divs div1 h3{
+    font-family: "Dancing Script", system-ui; font-size: 1.75rem;color: white;
+    margin-left: 300px ;margin-top: -60px ;
+}.divs div1 a{
+    height: 15px ; width: 15%; background-color: #ffbe33; color: white;
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; text-decoration: none;
+    text-align: center; margin-left: 220px ;margin-top: -110px ;
+    border-radius: 10px ; padding: 15px ;
+}
+
+
+.divs div2{
+    height: 220px ; width: 35%; background-color:#222831;
+    margin-left: 50px ; position: absolute; top: 820px ;left: 740px ;padding: 20px ;
+    border-radius: 15px ; transition: all 0.1 0.5s;
+} 
+.divs div2 img{
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 175px;
+    min-width: 175px;
+    height: 175px;
+    margin-right: 15px;
+    position: relative;
+    -webkit-transition: all 0.1 0.5s;
+    transition: all 0.1 0.5s;
+    border-radius: 100%;
+    border: 5px solid #ffbe33;
+}
+.divs div2 h1{
+    font-family: "Dancing Script", system-ui; font-size: 2.1rem;color: white;
+    margin-left: 220px ;margin-top: -170px ;
+
+}.divs div2 h2{
+    font-family: "Dancing Script", system-ui; font-size: 2.1rem;color: white;
+    margin-left: 220px ;margin-top: -20px ;
+}.divs div2 h3{
+    font-family: "Dancing Script", system-ui; font-size: 1.75rem;color: white;
+    margin-left: 300px ;margin-top: -60px ;
+}.divs div2 a{
+    height: 15px ; width: 15%; background-color: #ffbe33; color: white;
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; text-decoration: none;
+    text-align: center; margin-left: 220px ;margin-top: -110px ;
+    border-radius: 10px ; padding: 15px ;
+}
+.menu h1{
+    font-size: 3.25rem ; font-family: "Dancing Script", system-ui; 
+    color: rgb(0, 0, 0); text-align: center;position: absolute; top: 1150px ;
+    left: 650px;
+}.menu div1 {
+    height: 40px ; width: 75%; 
+    position: absolute; top: 1270px ; left: 100px ;
+}.menu div1 a{
+    text-align: center;  font-family: Arial, Helvetica, sans-serif;
+    color: black; font-size: 1.25rem; text-decoration: none;
+    margin-left: 150px ;font-weight: lighter;
+}.menu div1 a span{
+    text-decoration: overline underline 2px #222831;
+}.menu div1 a:hover{
+    text-decoration: underline overline 2px #222831;
+} .items div1{
+    height: 460px ; width: 291px; border-radius: 15px ; background-color: #222831;
+      position: absolute; top: 1340px ; left: 250px ;
+}.items div1 img{
+    background: #f1f2f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 0 0 0 45px;
+    margin: -1px;
+   padding: 67px;
+
+}.items div1 h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; color: white;
+    font-weight: lighter; text-align: center;
+}.items div1 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: white;
+   position: absolute; top: 340px ;left: 30px ;
+} .items div1 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 20px ; color: #f1f2f3;
+    position: absolute; top: 427px ; left: 30px ;
+}.items div1 i{
+    height: 30px ; width: 30px ;line-height: 30px ; border-radius: 50%;
+    background-color: #ffbe33; color: white; position: absolute;
+    top: 415px ; left: 200px ;padding: 5px ;align-items: center;text-align: center;
+}
+
+
+.items div2{
+    height: 460px ; width: 291px; border-radius: 15px ; background-color: #222831;
+      position: absolute; top: 1340px ; left: 630px ;
+}.items div2 img{
+    background: #f1f2f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+   height: 150px ;
+    border-radius: 0 0 0 45px;
+    margin: -1px;
+   padding: 45px;
+
+}.items div2 h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; color: white;
+    font-weight: lighter; text-align: center; margin-top: 60px;
+}.items div2 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: white;
+   position: absolute; top: 340px ;left: 30px ;
+} .items div2 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 20px ; color: #f1f2f3;
+    position: absolute; top: 427px ; left: 30px ;
+}.items div2 i{
+    height: 30px ; width: 30px ;line-height: 30px ; border-radius: 50%;
+    background-color: #ffbe33; color: white; position: absolute;
+    top: 415px ; left: 200px ;padding: 5px ;align-items: center;text-align: center;
+}
+
+
+
+.items div3{
+    height: 460px ; width: 291px; border-radius: 15px ; background-color: #222831;
+      position: absolute; top: 1340px ; left: 1010px ;
+}.items div3 img{
+    background: #f1f2f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+   height: 150px ;
+    border-radius: 0 0 0 45px;
+    margin: -1px;
+   padding: 71px;
+
+}.items div3 h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; color: white;
+    font-weight: lighter; text-align: center; 
+}.items div3 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: white;
+   position: absolute; top: 340px ;left: 30px ;
+} .items div3 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 20px ; color: #f1f2f3;
+    position: absolute; top: 427px ; left: 30px ;
+}.items div3 i{
+    height: 30px ; width: 30px ;line-height: 30px ; border-radius: 50%;
+    background-color: #ffbe33; color: white; position: absolute;
+    top: 415px ; left: 200px ;padding: 5px ;align-items: center;text-align: center;
+}
+
+
+.items div4{
+    height: 460px ; width: 291px; border-radius: 15px ; background-color: #222831;
+      position: absolute; top: 1860px ; left: 250px ;
+}.items div4 div{
+    height: 280px ; width: 100%; background-color: #f1f2f3;
+    border-radius: 0 0 0 45px ;
+}.items div4 div img{
+    height: 150px ; width: 230px ;position: absolute; top: 80px ;left: 11%;
+}
+.items div4 h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; color: white;
+    font-weight: lighter; text-align: center; 
+}.items div4 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: white;
+   position: absolute; top: 340px ;left: 30px ;
+} .items div4 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 20px ; color: #f1f2f3;
+    position: absolute; top: 427px ; left: 30px ;
+}.items div4 i{
+    height: 30px ; width: 30px ;line-height: 30px ; border-radius: 50%;
+    background-color: #ffbe33; color: white; position: absolute;
+    top: 415px ; left: 200px ;padding: 5px ;align-items: center;text-align: center;
+}
+
+.items div5{
+    height: 460px ; width: 291px; border-radius: 15px ; background-color: #222831;
+      position: absolute; top: 1860px ; left: 630px ;
+}.items div5 div{
+    height: 280px ; width: 100%; background-color: #f1f2f3;
+    border-radius: 0 0 0 45px ;
+}.items div5 div img{
+    height: 150px ; width: 230px ;position: absolute; top: 80px ;left: 11%;
+}
+.items div5 h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; color: white;
+    font-weight: lighter; text-align: center; 
+}.items div5 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: white;
+   position: absolute; top: 340px ;left: 30px ;
+} .items div5 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 20px ; color: #f1f2f3;
+    position: absolute; top: 427px ; left: 30px ;
+}.items div5 i{
+    height: 30px ; width: 30px ;line-height: 30px ; border-radius: 50%;
+    background-color: #ffbe33; color: white; position: absolute;
+    top: 415px ; left: 200px ;padding: 5px ;align-items: center;text-align: center;
+}
+
+
+.items div6{
+    height: 460px ; width: 291px; border-radius: 15px ; background-color: #222831;
+      position: absolute; top: 1860px ; left: 1010px ;
+}.items div6 div{
+    height: 280px ; width: 100%; background-color: #f1f2f3;
+    border-radius: 0 0 0 45px ;
+}.items div6 div img{
+    height: 150px ; width: 230px ;position: absolute; top: 80px ;left: 11%;
+}
+.items div6 h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; color: white;
+    font-weight: lighter; text-align: center; 
+}.items div6 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: white;
+   position: absolute; top: 340px ;left: 30px ;
+} .items div6 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 20px ; color: #f1f2f3;
+    position: absolute; top: 427px ; left: 30px ;
+}.items div6 i{
+    height: 30px ; width: 30px ;line-height: 30px ; border-radius: 50%;
+    background-color: #ffbe33; color: white; position: absolute;
+    top: 415px ; left: 200px ;padding: 5px ;align-items: center;text-align: center;
+}
+
+
+.items div7{
+    height: 460px ; width: 291px; border-radius: 15px ; background-color: #222831;
+      position: absolute; top: 2380px ; left: 250px ;
+}.items div7 div{
+    height: 280px ; width: 100%; background-color: #f1f2f3;
+    border-radius: 0 0 0 45px ;
+}.items div7 div img{
+    height: 150px ; width: 230px ;position: absolute; top: 80px ;left: 11%;
+}
+.items div7 h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; color: white;
+    font-weight: lighter; text-align: center; 
+}.items div7 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: white;
+   position: absolute; top: 340px ;left: 30px ;
+} .items div7 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 20px ; color: #f1f2f3;
+    position: absolute; top: 427px ; left: 30px ;
+}.items div7 i{
+    height: 30px ; width: 30px ;line-height: 30px ; border-radius: 50%;
+    background-color: #ffbe33; color: white; position: absolute;
+    top: 415px ; left: 200px ;padding: 5px ;align-items: center;text-align: center;
+}
+
+
+.items div8{
+    height: 460px ; width: 291px; border-radius: 15px ; background-color: #222831;
+      position: absolute; top: 2380px ; left: 630px ;
+}.items div8 div{
+    height: 280px ; width: 100%; background-color: #f1f2f3;
+    border-radius: 0 0 0 45px ;
+}.items div8 div img{
+    height: 150px ; width: 230px ;position: absolute; top: 80px ;left: 13%;
+}
+.items div8 h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; color: white;
+    font-weight: lighter; text-align: center; 
+}.items div8 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: white;
+   position: absolute; top: 340px ;left: 30px ;
+} .items div8 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 20px ; color: #f1f2f3;
+    position: absolute; top: 427px ; left: 30px ;
+}.items div8 i{
+    height: 30px ; width: 30px ;line-height: 30px ; border-radius: 50%;
+    background-color: #ffbe33; color: white; position: absolute;
+    top: 415px ; left: 200px ;padding: 5px ;align-items: center;text-align: center;
+}
+
+.items div9{
+    height: 460px ; width: 291px; border-radius: 15px ; background-color: #222831;
+      position: absolute; top: 2380px ; left: 1010px ;
+}.items div9 div{
+    height: 280px ; width: 100%; background-color: #f1f2f3;
+    border-radius: 0 0 0 45px ;
+}.items div9 div img{
+    height: 150px ; width: 230px ;position: absolute; top: 80px ;left: 13%;
+}
+.items div9 h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem; color: white;
+    font-weight: lighter; text-align: center; 
+}.items div9 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: white;
+   position: absolute; top: 340px ;left: 30px ;
+} .items div9 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 20px ; color: #f1f2f3;
+    position: absolute; top: 427px ; left: 30px ;
+}.items div9 i{
+    height: 30px ; width: 30px ;line-height: 30px ; border-radius: 50%;
+    background-color: #ffbe33; color: white; position: absolute;
+    top: 415px ; left: 200px ;padding: 5px ;align-items: center;text-align: center;
+}
+.items a{
+    height: 30px ; width: 17%; background-color: #ffb618; color: #f1f2f3;
+    border-radius: 25px ; font-family: Arial, Helvetica, sans-serif;
+    position: absolute; top: 2870px ; left: 630px ;text-decoration: none;
+    text-align: center; font-size: 1.25rem;padding: 10px ;
+}
+
+.section3{
+    height: 800px ; width: 100%; background-color: #222831;
+    position: absolute; top: 3050px ;left: 0px ;
+}.section3 img{
+    width: 100%;
+    max-width: 445px;
+    position: relative;
+    z-index: 2; margin-top: 120px ;margin-left: 300px ;
+} .section3 div{
+    height: 400px ; width: 500px ; 
+   position: absolute;
+    top: 250px ; left: 810px ;
+} .section3 div h1{
+    font-family: "Dancing Script", system-ui; font-size: 2.7rem; color: #f1f2f3;
+    position: absolute; top: 20px ;
+}.section3 div p1{
+    font-family: Arial, Helvetica, sans-serif; font-weight: lighter;
+    font-size: 15px ; color: #f1f2f3; position: absolute; top: 150px ;opacity: 0.9;
+}.section3 div a{
+    height: 30px ; width: 27%; background-color: #ffb618; color: #f1f2f3;
+    border-radius: 25px ; font-family: Arial, Helvetica, sans-serif;
+    position: absolute; top: 290px ;text-decoration: none;
+    text-align: center; font-size: 1.25rem;padding: 10px ;
+} .booking{
+    position: absolute; top: 3900px ; left: 0px ; 
+    height: 450px ; width: 98%;object-fit: cover;
+     -o-object-fit: cover;
+}.booking div{
+    height: 450px ; width: 45%; 
+}.booking div h1{
+    font-size: 3.25rem; font-family: "Dancing Script", system-ui;
+    color: #222831; position: absolute; top: -50px ; left: 120px ;
+}.booking div input[type='text']{
+    height: 20px ; width: 30%; border: 1px solid #222831 ; border-radius: 10px ;
+    position: absolute; top: 80px ; left: 120px ;padding: 10px ;
+}.booking div input::placeholder{
+    font-family: Arial, Helvetica, sans-serif; font-weight: lighter;
+    font-size: 15px ; color: gray; margin-left: 20px ;
+}.booking div input[type='number']{
+    height: 20px ; width: 30%; border: 1px solid #222831 ; border-radius: 10px ;
+    position: absolute; top: 140px ; left: 120px ;padding: 10px ;
+}.booking div input[type='email']{
+    height: 20px ; width: 30%; border: 1px solid #222831 ; border-radius: 10px ;
+    position: absolute; top: 200px ; left: 120px ;padding: 10px ;
+}.booking div input[type='password']{
+    height: 20px ; width: 30%; border: 1px solid #222831 ; border-radius: 10px ;
+    position: absolute; top: 260px ; left: 120px ;padding: 10px ;
+}.booking div input[type='tel']{
+    height: 20px ; width: 30%; border: 1px solid #222831 ; border-radius: 10px ;
+    position: absolute; top: 320px ; left: 120px ;padding: 10px ;
+}.booking div a{
+    height: 30px ; width: 27%; background-color: #ffb618; color: #f1f2f3;
+    border-radius: 25px ; font-family: Arial, Helvetica, sans-serif;
+    position: absolute; top: 390px ;left:120px ; text-decoration: none;
+    text-align: center; font-size: 1.25rem;padding: 10px ;
+}.map{
+    height: 450px ; width: 45%;
+    position: absolute; top: 0px ; left: 750px ;
+}.map iframe{
+    height: 100%; width: 100%; border-radius: 20px ;
+}
+
+.rates{
+    height: 300px ; width: 100%; position: absolute; top: 4500px ; left: 0px ;
+    
+}.rates h1{
+    font-size: 3.25rem; font-family: "Dancing Script", system-ui; font-weight: lighter;
+    color: #222831; position: absolute; position: absolute; top: -100px ;left: 480px ;
+}.rates div{
+    height: 100px ; width: 40%; background-color: #222831;position: absolute;
+    top: 100px ; left: 120px ;padding: 20px;border-radius: 20px ;
+    box-shadow: 2px 2px #343b45;
+}.rates div p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.04rem ; font-weight: lighter;
+    color: white;
+}.rates div p1 h6{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem ; font-weight: lighter;
+    color: white;position: absolute; top: 60px ; 
+}
+.rates div img{
+    height: 120px ; width: 120px ; line-height: 120px ; border-radius: 50%;
+    border: 5px solid #ffb618;position: absolute; top: 170px ;left: 20px;
+   
+}
+
+.rates div1{
+    height: 100px ; width: 40%; background-color: #222831;position: absolute;
+    top: 100px ; left: 820px ;padding: 20px;border-radius: 20px ;
+    box-shadow: 2px 2px #343b45;
+}.rates div1 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.04rem ; font-weight: lighter;
+    color: white;
+}.rates div1 p1 h6{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.25rem ; font-weight: lighter;
+    color: white;position: absolute; top: 60px ; 
+}
+.rates div1 img{
+    height: 120px ; width: 120px ; line-height: 120px ; border-radius: 50%;
+    border: 5px solid #ffb618;position: absolute; top: 170px ;left: 20px;
+   
+}
+
+.footer-section{
+    height: 400px ;width: 100%; background-color: #222831; position: absolute;
+    top: 5000px ;left: 0px ;
+}.footer-section div1{
+    height: 300px ; width: 20%; position: absolute;
+    top: 50px ; left: 130px ; display: inline-block;align-items: center;
+}.footer-section div1 h1{
+    font-family: "Dancing Script", system-ui; font-size: 2.25rem;color: antiquewhite;
+    text-align: center;
+}.footer-section div1 a{
+    text-decoration: none; color: white; font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.01rem;display: block;text-align: center;justify-content: center;
+}
+.footer-section div1 a i{
+    font-size: 1.02rem; color: white; text-align: center;margin: 10px ;
+}
+
+.footer-section div2{
+    height: 300px ; width: 35%; position: absolute;
+    top: 50px ; left: 530px ; display: inline-block;align-items: center;
+}.footer-section div2 h1{
+    font-family: "Dancing Script", system-ui; font-size: 2.25rem;color: antiquewhite;
+    text-align: center;
+}.footer-section div2 p1{
+    font-family: Arial, Helvetica, sans-serif;  color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center; font-size: 1.2em;
+    margin-bottom: 20px;
+    
+}.footer-section div2 a{
+    font-size: 1.25rem; color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;margin-left: 60px;
+}.footer-section div2 a i{
+    display: inline; justify-content: center; align-items: center;margin-left: 10px ;
+}.footer-section div3{
+    height: 190px ; width: 20%; position: absolute;
+    top: 50px ; left: 1100px ; display: inline-block;align-items: center;
+}.footer-section div3 h1{
+    font-family: "Dancing Script", system-ui; font-size: 2.25rem;color: antiquewhite;
+    text-align: center;
+}.footer-section div3 p1{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.02rem;color: #f1f2f3;
+    text-align: center;margin-left: 120px;
+}.footer-section div3 p2{
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.02rem;color: #f1f2f3;
+    text-align: center;justify-content: center;margin-left: 80px;
+}
